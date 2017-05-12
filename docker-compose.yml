@@ -4,6 +4,6 @@ angular:
   ports:
     - "3000:3000"
   volumes:
-    - $(pwd):/opt
+    - .:/opt
   entrypoint:
     - /opt/entrypoint.sh
